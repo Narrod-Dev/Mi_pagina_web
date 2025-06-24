@@ -113,7 +113,7 @@ ul {
     margin-top: 10px;
 }
 
-.info.contacto li {
+.info-contacto li {
     margin-bottom: 10px;
 }
 
@@ -137,7 +137,7 @@ ul {
     text-align: left;
 }
 
-.formulario-contacto buttom {
+.formulario-contacto button {
     padding: 10px 20px;
     background-color: #222;
     color: #fff;
@@ -239,4 +239,17 @@ ul {
 
 .text {
     text-align: justify;
+}
+
+/* Estilos para móviles (pantallas menores a 600px) */
+@media (max-width: 600px) {
+  .contenedor {
+    padding: 15px; /* Menos espacio en móviles */
+  }
+  .presentacion {
+    flex-direction: column; /* Apila imagen y texto */
+  }
+  nav ul {
+    flex-direction: column; /* Menú vertical */
+  }
 }
