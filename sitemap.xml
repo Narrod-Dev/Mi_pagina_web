@@ -13,35 +13,34 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://narrod-dev.github.io/Mi_pagina_web/index.html</loc>
+  <loc>https://narrod-dev.github.io/Mi_pagina_web/about.html</loc>
   <lastmod>2025-06-25T18:08:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://narrod-dev.github.io/Mi_pagina_web/sobre-mi.html</loc>
-  <lastmod>2025-06-25T18:08:28+00:00</lastmod>
-  <priority>0.80</priority>
+    <loc>https://narrod-dev.github.io/Mi_pagina_web/contacto.html</loc>
+    <lastmod>2025-06-25T18:08:28+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://narrod-dev.github.io/Mi_pagina_web/blog.html</loc>
-  <lastmod>2025-06-25T18:08:28+00:00</lastmod>
-  <priority>0.80</priority>
+    <loc>https://narrod-dev.github.io/Mi_pagina_web/proyectos/index.html</loc>
+    <lastmod>2025-06-25T18:08:28+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://narrod-dev.github.io/Mi_pagina_web/proyectos.html</loc>
-  <lastmod>2025-06-25T18:08:28+00:00</lastmod>
-  <priority>0.80</priority>
+    <loc>https://narrod-dev.github.io/Mi_pagina_web/blog/index.html</loc>
+    <lastmod>2025-06-25T18:08:28+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://narrod-dev.github.io/Mi_pagina_web/contacto.html</loc>
-  <lastmod>2025-06-25T18:08:28+00:00</lastmod>
-  <priority>0.80</priority>
+    <loc>https://narrod-dev.github.io/Mi_pagina_web/cv.html</loc>
+    <lastmod>2025-06-25T18:08:28+00:00</lastmod>
+    <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://narrod-dev.github.io/Mi_pagina_web/proyectos/pagina_web.html</loc>
-  <lastmod>2025-06-25T18:08:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
+<!-- paginas del blog -->
+
+<!-- paginas del proyecto -->
 
 
 </urlset>

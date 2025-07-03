@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://narrod-dev.github.io/Mi_pagina_web/sitemap.xml

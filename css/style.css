@@ -1,0 +1,166 @@
+/* Reseteo de los estilos del navegador a traves de un archivo reset.css */
+@import url("reset.css");
+
+body {
+    background-color: #e5e5e5;
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenedor {
+    background-color: #fff;
+    max-width: 800px;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 10px;
+    font-weight: bold;
+}
+header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+header ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    background-color: #6a5eb8;
+
+    transition: background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #33e21c;
+    background-color: #4a4a4a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Unificando estilos de h3 para evitar conflictos */
+h3 {
+    font-size: 20px;
+    margin-top: 16px; /* Asegura un margen superior para consistencia */
+    margin-bottom: 16px;
+    color: #222;
+    border-left: 4px solid #ffcc00;
+    padding-left: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 95%;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+        margin: 5px;
+        transition: font-size 0.3s ease;
+    }
+
+    header ul {
+        padding: 0;
+    }
+
+    header ul li {
+        display: block; /* botones en vertical */
+        padding: 12px;
+        font-size: 16px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    header ul li a {
+        display: block;
+        padding: 12px;
+        font-size: 16px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    main {
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 23px;
+        transition: font-size 0.3s ease;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 16px;
+        transition: font-size 0.3s ease;
+    }
+}

@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Blog Personal y portafolios de Nerling Francisco Hernández González. Estudiante de Ingeniería en Sistemas.">
     <title>Contacto - Mi Blog Personal</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleContacto.css">
 </head>
+
 <body>
     <div class="contenedor">
         <header>
-            <h1>Mi Blog Personal</h1>
+            <h1><span class="oculto">Contacto - </span>Narrod-Dev</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="sobre-mi.html">Sobre mí</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="about.html">Sobre mí</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="proyectos/index.html">Proyectos</Pic></a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -24,39 +29,53 @@
         <main>
             <h2>Contacto</h2>
 
+            <p class="texto-justificado">¿Quiere comunicarse conmigo?</p>
+
             <section class="info-contacto">
-                <p>¿Quiere comunicarse conmigo?</p>
+                <h3>Email</h3>
 
                 <ul>
-                    <li><strong>Email:</strong> <a href="mailto:nerlingfhg@gmail.com">nerlingfhg@gmail.com</a></li>
-                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/nerling-francisco-hernández-gonzález-367608371" target="_blank">Nerling Francisco Hernández González</a></li>
-                    <li><strong>GitHub:</strong> <a href="https://github.com/Narrod-dev" target="_blank">github.com/Narrod-dev</a></li>
-                    <li><strong>Ubicación: </strong>Nueva Guinea, Nicaragua</li>
+                    <li><strong>Email: </strong><a href="mailto:nerlingfhg@gmail.com">nerlingfhg@gmail.com</a></li>
                 </ul>
+
+                <h3>Redes sociales</h3>
+
+                <ul>
+                    <li><strong>LinkedIn: </strong><a href="https://linkedin.com/in/nerling-francisco-hernández-gonzález-367608371" target="_blank">Nerling Francisco Hernández González</a></li>
+                </ul>
+
+                <h3>Visualización de mis proyectos</h3>
+
+                <ul>
+                    <li><strong>GitHub: </strong><a href="https://github.com/Narrod-dev" target="_blank">github.com/Narrod-Dev</a></li>
+                </ul>
+                
             </section>
 
-                <section class="formulario-contacto">
-                    <h3>Formulario de contacto</h3>
-                    <form action="#" method="post">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+            <section class="formulario-contacto">
 
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" id="email" name="email" required>
+                <h3>Formulario de contacto</h3>
+                
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
 
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" id="email" name="email" required>
 
-                        <button type="submit">Enviar</button>
-                    </form>
-                    <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Este formulario es solo de ejemplo, aún no envía mensajes reales.</p>
-                </section>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
+                    <button type="submit">Enviar</button>
+                </form>
+                <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Este formulario es solo de ejemplo, aún no envia mensajes reales.</p>
+            </section>
         </main>
 
         <footer>
-            <p>&copy; 2025 - Hecho por Nerling Francisco Hernández González</p>
+            <p>&copy; 2025 Nerling Francisco Hernández González</p>
         </footer>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,92 @@
+main p {
+    line-height: 1.6;   /* Espaciado entre líneas para facilitar la lectura */
+    color: #555555;     /* Color de texto gris oscuro */
+    margin-bottom: 20px;
+    text-align: center;
+}
+    
+/* Secciones dentro de main */
+main section {
+    margin-bottom: 30px;
+}
+
+/* Listas dentro de main */
+main ul {
+    list-style: none;  /* Quitar viñetas */
+    padding: 0;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+    
+    /* Enlaces dentro de main */
+main a {
+    color: blue;
+    text-decoration: none;
+}
+    
+main a:hover {
+    text-decoration: underline;
+}
+    
+    /* Formulario dentro de main */
+main form {
+    display: flex;
+    flex-direction: column; /* Organizar elementos uno debajo de otro */
+}
+    
+main form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+    
+main form input,
+main form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+    
+main form button {
+    padding: 10px 15px;
+    background-color: #007acc;  /* Color de fondo del botón */
+    color: #ffffff;             /* Color de texto blanco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+main form button:hover {
+    background-color: #005f99; /* Oscurecer al pasar el ratón */
+}
+
+
+@media (max-width: 768px) {
+    main p {
+        margin-bottom: 15px;
+        font-size: 0.95em; /* Ligero ajuste si el texto se ve muy grande */
+        line-height: 1.5;
+        transition: all 0.3s ease;
+    }
+  
+    main section {
+        margin-bottom: 20px;
+        transition: margin-bottom 0.3s ease;
+    }
+  
+    main form input,
+    main form textarea {
+        padding: 8px;
+        font-size: 0.95em;
+        transition: all 0.3s ease;
+    }
+  
+    main form button {
+        padding: 8px 12px;
+        font-size: 0.95em;
+        transition: all 0.3s ease;
+    }
+}
